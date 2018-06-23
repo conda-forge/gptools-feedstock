@@ -30,14 +30,16 @@ http://stacks.iop.org/0029-5515/55/023012
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gptools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gptools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/gptools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gptools-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/gptools-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/gptools-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/gptools-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/gptools-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gptools/badges/version.svg)](https://anaconda.org/conda-forge/gptools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gptools/badges/downloads.svg)](https://anaconda.org/conda-forge/gptools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gptools-green.svg)](https://anaconda.org/conda-forge/gptools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gptools.svg)](https://anaconda.org/conda-forge/gptools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gptools.svg)](https://anaconda.org/conda-forge/gptools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gptools.svg)](https://anaconda.org/conda-forge/gptools) |
 
 Installing gptools
 ==================
