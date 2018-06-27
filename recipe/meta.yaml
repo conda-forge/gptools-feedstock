@@ -18,14 +18,15 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - setuptools
     - cython
-    - numpy 1.11.*
-    - toolchain
+    - numpy
   run:
     - python
-    - numpy >=1.11
+    - {{ pin_compatible('numpy') }}
     - scipy
     - matplotlib
     - mpmath
