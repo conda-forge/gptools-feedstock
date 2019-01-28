@@ -34,9 +34,10 @@ requirements:
     - corner
 
 test:
-  imports:
-    - gptools
-    - gptools.kernel
+  commands:
+    - export MPLBACKEND="AGG"  # [linux and py2k]
+    - python -c "import gptools"
+    - python -c "import gptools.kernel"
 
 about:
   home: http://gptools.readthedocs.org/
