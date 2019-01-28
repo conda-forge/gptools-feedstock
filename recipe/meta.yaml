@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1000
+  script: "{{ PYTHON }} -m pip install . -vv"
   skip: True  # [win]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
-    - setuptools
+    - pip
     - cython
     - numpy
   run:
@@ -34,9 +34,10 @@ requirements:
     - corner
 
 test:
-  imports:
-    - gptools
-    - gptools.kernel
+  commands:
+    - export MPLBACKEND="AGG"  # [linux and py2k]
+    - python -c "import gptools"
+    - python -c "import gptools.kernel"
 
 about:
   home: http://gptools.readthedocs.org/
