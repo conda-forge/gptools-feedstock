@@ -3,11 +3,15 @@ About gptools
 
 Home: http://gptools.readthedocs.org/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gptools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Gaussian process regression with derivative constraints and predictions.
+
+Development: https://github.com/markchil/gptools
+
+Documentation: http://gptools.readthedocs.org/
 
 Gaussian processes with arbitrary derivative constraints and predictions.
 
@@ -45,77 +49,65 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_numpy1.14python3.6.____cpython</td>
+              <td>linux_64_numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_numpy1.14python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_numpy1.14python3.7.____cpython</td>
+              <td>linux_64_numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_numpy1.14python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_numpy1.14python3.8.____cpython</td>
+              <td>linux_64_numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_numpy1.14python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_numpy1.18python3.6.____73_pypy</td>
+              <td>linux_64_numpy1.18python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_numpy1.18python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.18python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_numpy1.14python3.6.____cpython</td>
+              <td>osx_64_numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_numpy1.14python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_numpy1.14python3.7.____cpython</td>
+              <td>osx_64_numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_numpy1.14python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_numpy1.14python3.8.____cpython</td>
+              <td>osx_64_numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_numpy1.14python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_numpy1.18python3.6.____73_pypy</td>
+              <td>osx_64_numpy1.18python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5586&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_numpy1.18python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gptools-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.18python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
